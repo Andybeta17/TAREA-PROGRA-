@@ -13,3 +13,13 @@ print(f"DEBUG n2: {n2} tipo: {type(n2)}")
 resultado = n1 + n2
 
 print(f"La suma es: {resultado}")# TAREA-PROGRA-
+# calculadora.py
+
+n1 = input("Ingresa el primer número: ")
+n2 = input("Ingresa el segundo número: ")
+
+# CORRECCIÓN: Convertimos los inputs a int() para poder hacer matemáticas.
+# Eliminamos los prints de debug.
+resultado = int(n1) + int(n2)
+
+print(f"La suma es: {resultado}")
